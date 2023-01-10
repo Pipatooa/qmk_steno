@@ -481,17 +481,6 @@
                 }
             }
         },
-        "stenography": {
-            "type": "object",
-            "additionalProperties": false,
-            "properties": {
-                "enabled": {"type": "boolean"},
-                "protocol": {
-                    "type": "string",
-                    "enum": ["all", "geminipr", "txbolt"]
-                }
-            }
-        },
         "ps2": {
             "type": "object",
             "additionalProperties": false,
